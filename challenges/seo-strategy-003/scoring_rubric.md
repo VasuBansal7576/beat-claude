@@ -1,90 +1,53 @@
 # Scoring Rubric: SEO Strategy 003
 
-This challenge-specific rubric supplements the [general scoring methodology](../../SCORING.md).
+This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
 
-## Challenge-Specific Evaluation Points
+Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
 
-### Strategic Depth (30 points)
+## What Strong Submissions Show
 
-**What we're looking for:**
-- Root cause analysis (not just symptoms)
-- Understanding of content decay dynamics
-- Recognition of Core Web Vitals impact on rankings
-- Realistic assessment of competitive position vs. Ramp
+### 1. Real judgment
 
-**Red flags:**
-- Suggests publishing more without fixing existing content
-- Ignores technical SEO entirely
-- Underestimates time to recover
-- Generic SEO playbook without situation-specific insight
+The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
 
-### Specificity (25 points)
+### 2. Execution artifact
 
-**What we're looking for:**
-- Specific content tiering criteria (traffic thresholds, position ranges)
-- Named Core Web Vitals fixes with expected impact
-- Week-by-week or month-by-month deliverables
-- Budget allocation that adds up to $15K
+Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include an SEO audit sheet, keyword map, content refresh plan, technical issue log, analytics pull, or before and after model.
 
-**Red flags:**
-- "Refresh old content" without prioritization method
-- "Fix Core Web Vitals" without specific actions
-- Missing link building tactics
+### 3. Source-labeled specificity
 
-### AI Fluency (20 points)
+Specificity only counts when it is grounded. Label every number as one of:
 
-**What we're looking for:**
-- AI-assisted content refresh strategies
-- Programmatic content optimization
-- AI for content audit and prioritization
-- Understanding of how AI impacts SERP competition
+- Observed
+- Estimated
+- Benchmarked
+- Assumed
 
-**Red flags:**
-- Purely manual content processes
-- No mention of AI writing assistance
-- Ignores AI-generated content threat from competitors
+Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
 
-### Creativity (15 points)
+### 4. Proof quality
 
-**What we're looking for:**
-- Non-obvious content angle for fintech vertical
-- Creative link building approaches on limited budget
-- Pattern recognition from other site recoveries
-- Unique competitive positioning ideas
+Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
 
-**Bonus points for:**
-- Specific comparison page strategies that differentiate
-- Original research ideas that would earn links
-- Integration/partnership content strategies
+### 5. AI fluency with limits
 
-### Communication (10 points)
+Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
 
-**What we're looking for:**
-- Clear diagnostic framework
-- Logical progression from audit to execution
-- Visual roadmap/timeline
-- Appropriate balance of strategy and tactics
+### 6. Failure handling
 
----
+Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
 
-## Hints for What Beats Claude
+## What Usually Loses
 
-Claude's baseline answer is comprehensive but formulaic:
-- Standard content tiering approach
-- Generic Core Web Vitals fixes
-- Textbook link building tactics
+- A polished strategy document with no artifact.
+- Generic AI phrasing with no lived judgment.
+- Numbers with no source labels.
+- Claims without evidence.
+- A plan that ignores the brief's constraints.
+- A one-off demo that only works on a perfect input.
+- Recommendations that cannot be executed by the team described in the brief.
+- Hiding what stays human.
 
-**To beat it, you might:**
-- Show deeper diagnostic thinking (what specifically about Google updates hit this site?)
-- Propose a more aggressive consolidation strategy (400 posts may be 200 too many)
-- Demonstrate fintech-specific SEO knowledge
-- Include specific refresh examples with before/after
-- Show link building creativity beyond guest posting
-- Challenge the "compete with Ramp" framing
+## How Review Works
 
-**Claude's answer tends to be:**
-- Correct but could apply to any site
-- Conservative on pruning decisions
-- Missing fintech-specific opportunities
-
-The bar to beat is "competent SEO generalist." To win, show us you've recovered traffic for similar sites and understand the fintech content landscape.
+Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.

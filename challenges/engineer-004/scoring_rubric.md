@@ -1,93 +1,53 @@
 # Scoring Rubric: Engineer 004
 
-This challenge-specific rubric supplements the [general scoring methodology](../../SCORING.md).
+This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
 
-## Challenge-Specific Evaluation Points
+Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
 
-### Strategic Depth (30 points)
+## What Strong Submissions Show
 
-**What we're looking for:**
-- Understanding of event streaming vs. batch trade-offs
-- Recognition of exactly-once semantics challenges
-- Appreciation for multi-tenant isolation
-- Realistic migration risk assessment
+### 1. Real judgment
 
-**Red flags:**
-- Proposes complete rewrite without migration plan
-- Ignores multi-tenancy entirely
-- Underestimates operational complexity
-- No consideration of failure modes
+The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
 
-### Specificity (25 points)
+### 2. Execution artifact
 
-**What we're looking for:**
-- Concrete technology choices with rationale
-- Actual cost estimates with line items
-- Specific Kafka topic/partition design
-- Clear data model with schemas
+Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include a repo, architecture diagram, runnable script, benchmark, log export, test plan, or system design artifact with tradeoffs.
 
-**Red flags:**
-- "Use a message queue" without specifics
-- Missing cost analysis
-- Vague "use best practices" statements
-- No schema design
+### 3. Source-labeled specificity
 
-### AI Fluency (20 points)
+Specificity only counts when it is grounded. Label every number as one of:
 
-**What we're looking for:**
-- Understanding of AI/ML pipeline integration potential
-- Use of AI for anomaly detection
-- Awareness of LLM-based log analysis
-- Modern tooling choices
+- Observed
+- Estimated
+- Benchmarked
+- Assumed
 
-**Red flags:**
-- Purely traditional architecture
-- No mention of observability automation
-- Ignores AI-assisted development practices
+Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
 
-### Creativity (15 points)
+### 4. Proof quality
 
-**What we're looking for:**
-- Non-obvious architectural choices
-- Novel approaches to identity stitching
-- Creative cost optimization
-- Pattern recognition from similar systems
+Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
 
-**Bonus points for:**
-- Edge computing considerations
-- Novel buffering strategies
-- Creative use of serverless
-- Experience-based insights from similar builds
+### 5. AI fluency with limits
 
-### Communication (10 points)
+Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
 
-**What we're looking for:**
-- Clear diagrams (ASCII, Mermaid, or visual)
-- Logical flow from problem to solution
-- Appropriate detail level
-- Trade-offs clearly articulated
+### 6. Failure handling
 
----
+Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
 
-## Hints for What Beats Claude
+## What Usually Loses
 
-Claude's baseline answer is architecturally sound but textbook:
-- Standard Kafka + Flink + ClickHouse stack
-- Generic migration strategy
-- Conservative technology choices
+- A polished strategy document with no artifact.
+- Generic AI phrasing with no lived judgment.
+- Numbers with no source labels.
+- Claims without evidence.
+- A plan that ignores the brief's constraints.
+- A one-off demo that only works on a perfect input.
+- Recommendations that cannot be executed by the team described in the brief.
+- Hiding what stays human.
 
-**To beat it, you might:**
-- Propose a simpler architecture that still meets requirements
-- Show deeper understanding of Kafka partition design for multi-tenant
-- Demonstrate experience with similar migrations (what actually goes wrong)
-- Challenge the ClickHouse choice with alternatives
-- Show more sophisticated identity resolution
-- Include monitoring/observability strategy
-- Propose innovative cost optimization
+## How Review Works
 
-**Claude's answer tends to be:**
-- Correct but could be from any architecture blog
-- Missing operational war stories
-- Conservative on build-vs-buy decisions
-
-The bar to beat is "senior engineer who read the docs." To win, show us you've built and operated systems like this.
+Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.

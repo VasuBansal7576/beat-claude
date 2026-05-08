@@ -1,92 +1,53 @@
 # Scoring Rubric: Intern 011
 
-## Overview
+This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
 
-Candidates submit three parts: their domain choice, an agent design + working prototype, and a meta question about their automation instincts. The prototype is the differentiator.
+Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
 
-## Scoring Criteria (100 points)
+## What Strong Submissions Show
 
-### Builder Instinct — 30 points
+### 1. Real judgment
 
-The core question: **Did they ship something that works?**
+The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
 
-| Score | Criteria |
-|-------|----------|
-| 24-30 | Working prototype that handles the core workflow. Code or no-code, doesn't matter — it runs. Demo shows real or realistic data flowing through. Clear README or walkthrough. |
-| 15-23 | Partial prototype — built the hardest part, explained the rest. Shows real technical or tool competence. |
-| 6-14 | Described what they'd build in detail but didn't build it. Architecture is sound but no working code/demo. |
-| 0-5 | No prototype, no demo, no code. Pure strategy doc. |
+### 2. Execution artifact
 
-### Agent Design Quality — 25 points
+Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include a working agent prototype with repo, no-code workflow, demo video, prompt chain, test data, and output logs.
 
-Is the architecture sound and production-aware?
+### 3. Source-labeled specificity
 
-| Score | Criteria |
-|-------|----------|
-| 20-25 | Clear data flow, appropriate tool/API choices, handles edge cases explicitly, knows what stays human and why. Could see this working in production with more time. |
-| 12-19 | Good architecture but misses some edge cases or makes questionable tool choices without justification. |
-| 5-11 | Surface-level design. "Use GPT to do it" without specifics on prompts, data handling, or failure modes. |
-| 0-4 | No real architecture. Vague hand-waving about AI. |
+Specificity only counts when it is grounded. Label every number as one of:
 
-### Creative Problem Framing — 20 points
+- Observed
+- Estimated
+- Benchmarked
+- Assumed
 
-Did they see something non-obvious?
+Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
 
-| Score | Criteria |
-|-------|----------|
-| 16-20 | Reframed the problem in a way that makes the solution better. Saw angles the brief didn't suggest. Combined tools or approaches in unexpected ways. |
-| 10-15 | Some creative choices but mostly followed the obvious path. |
-| 4-9 | Entirely conventional approach. No surprises. |
-| 0-3 | Copy-paste thinking. Took the brief literally with no original insight. |
+### 4. Proof quality
 
-### AI Fluency — 15 points
+Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
 
-Do they understand AI's capabilities and limitations?
+### 5. AI fluency with limits
 
-| Score | Criteria |
-|-------|----------|
-| 12-15 | Uses the right models for the right tasks. Understands token limits, context windows, prompt design. Knows when AI is the wrong tool. Shows evidence of daily AI use. |
-| 7-11 | Reasonable AI usage but some misunderstandings about capabilities or limitations. |
-| 3-6 | Treats AI as magic — "just feed it to GPT" without understanding what that means technically. |
-| 0-2 | Little evidence of working with AI tools. |
+Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
 
-### Communication — 10 points
+### 6. Failure handling
 
-| Score | Criteria |
-|-------|----------|
-| 8-10 | Tight, scannable, no filler. Technical choices are explained clearly. Shows personality. |
-| 5-7 | Readable but some filler or poor organization. |
-| 2-4 | Wordy, buried lead, hard to follow. |
-| 0-1 | Confusing, unprofessional, or clearly unedited. |
+Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
 
-## Bonus Points
+## What Usually Loses
 
-### The Scrappiness Bonus (+5 max)
+- A polished strategy document with no artifact.
+- Generic AI phrasing with no lived judgment.
+- Numbers with no source labels.
+- Claims without evidence.
+- A plan that ignores the brief's constraints.
+- A one-off demo that only works on a perfect input.
+- Recommendations that cannot be executed by the team described in the brief.
+- Hiding what stays human.
 
-Awarded when a candidate does something notably resourceful:
-- Built with free-tier tools only
-- Shipped in significantly under 2 hours and it shows polish
-- Found a clever workaround for a limitation
-- Used a tool in a way it wasn't designed for (and it worked)
+## How Review Works
 
-## Red Flags (Auto-Deduct)
-
-| Red Flag | Deduction |
-|----------|-----------|
-| No prototype or demo of any kind | -15 |
-| Submission reads like raw AI output | -15 |
-| Claims to have built something but provides no link, code, or video | -10 |
-| Designed a system that would take 6 months to build (over-scoped) | -5 |
-| Didn't answer the meta question | -5 |
-
-## What Beats Claude on This Challenge
-
-Claude's baseline will produce a well-structured architecture doc with clean diagrams and thorough edge case analysis. It will be competent and comprehensive.
-
-But Claude can't:
-- **Ship a working prototype** with real judgment calls baked in
-- **Make scrappy trade-offs** about what to build in 2 hours vs. what to skip
-- **Show a personal automation instinct** in the meta question
-- **Demonstrate taste** about what should stay human vs. what should be automated
-
-Any candidate who submits a working demo — even a rough one — automatically differentiates from Claude's baseline. The bar isn't polish. The bar is: *did you build it?*
+Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.

@@ -74,6 +74,21 @@ Your plan should include:
 - Must maintain publishing cadence (4 posts/month minimum)
 - Leadership wants to see traction in 90 days
 
+
+## Required Submission Packet
+
+Include these items with your submission:
+
+1. **Written answer**: the main response to the brief.
+2. **Operating artifact**: SEO operating artifact, such as an audit sheet, keyword map, content brief, technical issue log, analytics pull, or refresh model.
+3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
+4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
+5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
+6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
+7. **What stays human**: explain which decisions or approvals should not be automated and why.
+
+A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
+
 ### Evaluation Criteria
 
 See [SCORING.md](../../SCORING.md) for how submissions are evaluated.
@@ -82,7 +97,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization—if you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
+Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization. If you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
 
 ---
 

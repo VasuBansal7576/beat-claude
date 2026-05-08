@@ -1,86 +1,53 @@
 # Scoring Rubric: General 000
 
-## Overview
+This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
 
-This challenge has a different structure than role-specific challenges. Applicants submit three parts: the role they want, proof of exceptional ability, and their AI edge. Scoring reflects this.
+Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
 
-## Scoring Criteria (100 points)
+## What Strong Submissions Show
 
-### Evidence of Exceptional Ability — 40 points
+### 1. Real judgment
 
-The core question: **Can this person prove they've done exceptional work?**
+The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
 
-| Score | Criteria |
-|-------|----------|
-| 32-40 | 2-3 examples with verifiable numbers, real artifacts (links, screenshots, repos), and clear cause-and-effect. Results are genuinely impressive for their field. |
-| 20-31 | Solid examples with some evidence, but missing verification or specificity in places. Results are good but not clearly exceptional. |
-| 8-19 | Claims without strong evidence. Responsibilities described but outcomes unclear. |
-| 0-7 | Generic self-description. No numbers, no artifacts, no verifiable claims. |
+### 2. Execution artifact
 
-### AI Fluency & Vision — 25 points
+Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include a proof packet for the role you want, such as a shipped project, client result, teardown, model, workflow, dashboard, or portfolio artifact with source records.
 
-Do they actually use AI at a high level, or just talk about it?
+### 3. Source-labeled specificity
 
-| Score | Criteria |
-|-------|----------|
-| 20-25 | Specific AI stack with concrete workflows described. Best AI win is genuinely impressive with clear outcome. Future predictions are specific, non-obvious, and defensible. |
-| 12-19 | Uses AI tools but descriptions are surface-level. Predictions are reasonable but generic. |
-| 5-11 | Mentions AI but clearly isn't deeply integrated into their work. Predictions are "AI will change everything" tier. |
-| 0-4 | Little to no evidence of working with AI. |
+Specificity only counts when it is grounded. Label every number as one of:
 
-### Self-Awareness & Fit — 15 points
+- Observed
+- Estimated
+- Benchmarked
+- Assumed
 
-Do they know what they're great at and where they'd add value?
+Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
 
-| Score | Criteria |
-|-------|----------|
-| 12-15 | Clear, specific description of the role they want. 90-day plan shows they've researched Single Grain. Honest about strengths and gaps. |
-| 7-11 | Reasonable role description but generic. Could apply to any company. |
-| 3-6 | Vague about what they want to do. No evidence of research into SG. |
-| 0-2 | "I'm open to anything" or clearly misaligned with what SG does. |
+### 4. Proof quality
 
-### Communication Quality — 10 points
+Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
 
-| Score | Criteria |
-|-------|----------|
-| 8-10 | Tight, scannable, no fluff. Every sentence earns its place. Professional but has personality. |
-| 5-7 | Readable but some filler or poor organization. |
-| 2-4 | Wordy, buried lead, hard to scan. |
-| 0-1 | Confusing, unprofessional, or clearly unedited. |
+### 5. AI fluency with limits
 
-### Non-Obvious Insight — 10 points
+Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
 
-| Score | Criteria |
-|-------|----------|
-| 8-10 | Shows us something we haven't seen. A pattern, a prediction, a connection that makes us think differently. |
-| 5-7 | Some fresh thinking but mostly conventional. |
-| 2-4 | Entirely conventional. Nothing surprising. |
-| 0-1 | Cookie-cutter thinking. |
+### 6. Failure handling
 
-## Bonus Criterion
+Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
 
-### The Dinner Test (Pass/Fail)
+## What Usually Loses
 
-After scoring, the reviewer answers:
+- A polished strategy document with no artifact.
+- Generic AI phrasing with no lived judgment.
+- Numbers with no source labels.
+- Claims without evidence.
+- A plan that ignores the brief's constraints.
+- A one-off demo that only works on a perfect input.
+- Recommendations that cannot be executed by the team described in the brief.
+- Hiding what stays human.
 
-> "Would I want to spend 2 hours at dinner listening to this person talk?"
+## How Review Works
 
-**If Pass:** Advance to conversation regardless of score (as long as score is above 50).
-
-**If Fail:** Standard scoring rules apply — must beat Claude's score to advance.
-
-## Red Flags (Auto-Deduct)
-
-| Red Flag | Deduction |
-|----------|-----------|
-| No verifiable evidence of any claim | -15 |
-| Submission reads like raw AI output | -15 |
-| "Exceptional ability" examples are just normal job responsibilities | -10 |
-| No personal experience with AI tools | -10 |
-| Clearly didn't research Single Grain | -5 |
-
-## What Beats Claude on This Challenge
-
-Claude's baseline will be structured and competent but inherently generic — it can't provide real work samples, real numbers from real projects, or genuine personal AI workflow details.
-
-Any applicant who provides **verifiable proof of genuinely exceptional results** automatically differentiates from Claude's baseline.
+Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.

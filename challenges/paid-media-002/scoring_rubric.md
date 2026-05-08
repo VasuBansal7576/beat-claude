@@ -1,89 +1,53 @@
 # Scoring Rubric: Paid Media 002
 
-This challenge-specific rubric supplements the [general scoring methodology](../../SCORING.md).
+This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
 
-## Challenge-Specific Evaluation Points
+Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
 
-### Strategic Depth (30 points)
+## What Strong Submissions Show
 
-**What we're looking for:**
-- Understanding of B2B paid media dynamics at scale
-- Recognition that CAC naturally degrades as spend increases
-- Awareness of construction industry seasonality
-- Consideration of team bandwidth constraints
+### 1. Real judgment
 
-**Red flags:**
-- Ignores the team capacity problem
-- Assumes linear CAC at 4x spend
-- Generic channel recommendations without vertical context
+The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
 
-### Specificity (25 points)
+### 2. Execution artifact
 
-**What we're looking for:**
-- Actual CPM/CPC benchmarks for construction B2B
-- Specific audience segments with targeting criteria
-- Named tools and platforms
-- Week-by-week or month-by-month spend progression
+Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include a media plan, budget model, account audit, experiment tracker, landing page test plan, or reporting dashboard with source data.
 
-**Red flags:**
-- "Scale Google Ads" without structure details
-- Missing attribution methodology
-- Vague creative strategy
+### 3. Source-labeled specificity
 
-### AI Fluency (20 points)
+Specificity only counts when it is grounded. Label every number as one of:
 
-**What we're looking for:**
-- AI-powered bidding strategies
-- Creative testing automation
-- Predictive budget allocation
-- Use of AI for creative generation/iteration
+- Observed
+- Estimated
+- Benchmarked
+- Assumed
 
-**Red flags:**
-- Manual everything approach
-- No mention of smart bidding
-- Ignores AI creative tools
+Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
 
-### Creativity (15 points)
+### 4. Proof quality
 
-**What we're looking for:**
-- Non-obvious channel suggestions for construction vertical
-- Innovative audience building strategies
-- Cross-channel synergy ideas
-- Pattern recognition from other B2B verticals
+Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
 
-**Bonus points for:**
-- Trade publication strategies specific to construction
-- Procore/Autodesk ecosystem plays
-- ABM approaches for named accounts
+### 5. AI fluency with limits
 
-### Communication (10 points)
+Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
 
-**What we're looking for:**
-- Clear month-by-month roadmap
-- Visual budget breakdowns
-- Logical flow from strategy to tactics
-- Executive-ready formatting
+### 6. Failure handling
 
----
+Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
 
-## Hints for What Beats Claude
+## What Usually Loses
 
-Claude's baseline answer covers the fundamentals well:
-- Reasonable channel allocation
-- Month-by-month scaling approach
-- CAC risk awareness
+- A polished strategy document with no artifact.
+- Generic AI phrasing with no lived judgment.
+- Numbers with no source labels.
+- Claims without evidence.
+- A plan that ignores the brief's constraints.
+- A one-off demo that only works on a perfect input.
+- Recommendations that cannot be executed by the team described in the brief.
+- Hiding what stays human.
 
-**To beat it, you might:**
-- Go deeper on construction-specific targeting (job sites, certifications, software stack)
-- Show more sophisticated attribution modeling
-- Propose creative strategies specific to construction decision-makers
-- Demonstrate pattern recognition from scaling other B2B SaaS accounts
-- Include specific creative concepts/hooks that would resonate
-- Show tighter integration between paid and sales team
+## How Review Works
 
-**Claude's answer tends to be:**
-- Correct but generic B2B playbook
-- Missing vertical-specific insights
-- Conservative on new channel testing
-
-The bar to beat is "competent paid media manager." To win, show us you understand construction buyers and have scaled B2B paid before.
+Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.

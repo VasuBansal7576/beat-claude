@@ -2,11 +2,11 @@
 
 ## Agentify It
 
-**This challenge is for internship candidates — any role, any background.** Pick your domain, find a manual workflow, and build an AI agent that replaces it.
+**This challenge is for internship candidates - any role, any background.** Pick your domain, find a manual workflow, and build an AI agent that replaces it.
 
 ### About Single Grain
 
-Single Grain is a digital marketing agency working with companies like Amazon, Uber, and Salesforce. We're transitioning from a traditional agency to a tech-enabled services company — AI agents handle the repetitive work, humans do the thinking that AI can't.
+Single Grain is a digital marketing agency working with companies like Amazon, Uber, and Salesforce. We're transitioning from a traditional agency to a tech-enabled services company - AI agents handle the repetitive work, humans do the thinking that AI can't.
 
 Our interns don't fetch coffee. They build products. Our current intern is building social media agents. Before that, they shipped an SEO automation pipeline. You'll move fast, own real projects, and work directly with AI tools every day.
 
@@ -20,7 +20,7 @@ Your submission has three parts. All three are required.
 
 ## Part 1: Pick Your Domain
 
-Tell us where you want to work. This is open — marketing, engineering, SEO, content, sales, recruiting, operations, or something we haven't thought of.
+Tell us where you want to work. This is open - marketing, engineering, SEO, content, sales, recruiting, operations, or something we haven't thought of.
 
 Answer these:
 - **What area do you want to work in and why?**
@@ -39,41 +39,49 @@ This is the core of your submission. **You need to build something.**
 
 Choose one of these real manual workflows that exist at agencies like ours, OR propose your own.
 
-**Option A — Weekly Client Reporting**
+**Option A - Weekly Client Reporting**
 A junior marketer spends 4 hours every Monday pulling data from Google Analytics, Google Search Console, and ad platforms. They copy numbers into a Google Sheet template, write 3-4 bullet points about what changed, and email it to the client. They do this for 8 clients. It's the same process every week.
 
-**Option B — Lead Qualification**
+**Option B - Lead Qualification**
 When a new lead fills out the contact form, someone manually looks up the company, checks their website, estimates revenue, reviews their LinkedIn, and decides whether they're worth a sales call. Takes 10-15 minutes per lead. We get 30-50 leads per week.
 
-**Option C — Content Distribution**
+**Option C - Content Distribution**
 After publishing a blog post, a coordinator manually creates social posts for LinkedIn, Twitter/X, and Instagram. They resize the hero image for each platform, write platform-specific captions, schedule them across tools, and then check engagement 48 hours later to report back. Takes 45 minutes per post, we publish 4x/week.
 
-**Option D — Your Own**
+**Option D - Your Own**
 Found a manual workflow that's begging to be automated? Propose it. Describe the current manual process clearly enough that we can evaluate your agent design against it.
 
 ### Step 2: Design the Agent
 
 Show us how you'd turn this into an AI agent system. Include:
 
-- **What the agent does** — step by step, what happens when it runs?
-- **Architecture** — what tools, APIs, models, and data sources does it use? How do they connect?
-- **What stays human** — what parts should a person still review or approve? Why?
-- **Edge cases** — what could go wrong? How does the agent handle bad data, API failures, or weird inputs?
+- **What the agent does** - step by step, what happens when it runs?
+- **Architecture** - what tools, APIs, models, and data sources does it use? How do they connect?
+- **What stays human** - what parts should a person still review or approve? Why?
+- **Edge cases** - what could go wrong? How does the agent handle bad data, API failures, or weird inputs?
 
 ### Step 3: Build It
 
 **Ship a working prototype.** This is what separates you from Claude's answer.
 
-It doesn't have to be production-ready. It doesn't have to be pretty. But it has to work. We want to see your code, your prompts, and your thinking.
+It doesn't have to be production-ready. It doesn't have to be pretty. But it has to work. We want to see your code, your prompts, your test data, and your thinking.
 
 Acceptable formats:
 - **GitHub repo** with a README and demo instructions
-- **Replit / CodeSandbox** — a link we can click and run
+- **Replit / CodeSandbox**: a link we can click and run
 - **Video demo** (under 5 minutes) showing it working with real or realistic data
 - **Claude Code / Cursor session export** showing you building it step by step
 - **No-code build** (Make, Zapier, n8n) with a Loom walkthrough
 
-If you can't build a full prototype in 1-2 hours, build the hardest part and explain what you'd do next.
+Your prototype must include three test cases:
+
+1. **Normal case**: a clean input where the agent should succeed.
+2. **Messy edge case**: incomplete, noisy, or conflicting input.
+3. **Failure or ambiguous case**: an input where the agent should stop, ask for help, or escalate to a human.
+
+Also include one bad output from your prototype and explain how you detected it, fixed it, or routed it to a human.
+
+If you can't build a full prototype in 1-2 hours, build the hardest part and explain what you'd do next. Do not hide the gaps. Show what works, what fails, and what stays human.
 
 ---
 
@@ -81,28 +89,37 @@ If you can't build a full prototype in 1-2 hours, build the hardest part and exp
 
 Answer this in 3-5 sentences:
 
-**What's the most tedious, repetitive thing you've done in the last month — at work, at school, or in life? How would you agentify it?**
+**What's the most tedious, repetitive thing you've done in the last month - at work, at school, or in life? How would you agentify it?**
 
 We're not looking for a full design here. We want to see if you naturally look at manual work and think about automation. The more specific and creative, the better.
 
 ---
 
+
+## Required Submission Packet
+
+Include these items with your submission:
+
+1. **Written answer**: the main response to the brief.
+2. **Operating artifact**: Working agent prototype with repo or no-code workflow, demo, test inputs, output logs, and failure notes.
+3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
+4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
+5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
+6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
+7. **What stays human**: explain which decisions or approvals should not be automated and why.
+
+A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
+
 ## What We're Evaluating
 
-| Criterion | Weight | What We're Looking For |
-|-----------|--------|----------------------|
-| Builder instinct | 30% | Did you actually ship something, or just write about it? A rough prototype beats a polished deck. |
-| Agent design quality | 25% | Is the architecture sound? Does it handle edge cases? Could this actually work in production with more time? |
-| Creative problem framing | 20% | Did you see angles that aren't obvious? Did you reframe the problem in a way that makes the solution better? |
-| AI fluency | 15% | Do you understand what AI can and can't do? Are you using the right tools for the right jobs? |
-| Communication | 10% | Clear, concise, shows personality. No filler. |
+We look for builder instinct, agent design quality, creative problem framing, AI fluency, and clear communication. For this challenge, the prototype matters heavily. A rough working build with honest failure handling beats a polished deck.
 
 ## What Will Lose
 
 - A strategy doc with no working prototype
 - Pasting the workflow into Claude and submitting what comes back
 - Describing tools you'd use without actually using them
-- Over-scoping — designing a system that would take a team 6 months
+- Over-scoping - designing a system that would take a team 6 months
 - Playing it safe with obvious solutions
 
 ## What Will Win
@@ -111,7 +128,7 @@ We're not looking for a full design here. We want to see if you naturally look a
 - Creative automation choices that show you understand the *why*, not just the *what*
 - Honest assessment of what your agent handles well vs. where it breaks
 - Evidence you've actually built things with AI before
-- Scrappiness — doing a lot with a little
+- Scrappiness - doing a lot with a little
 
 ---
 

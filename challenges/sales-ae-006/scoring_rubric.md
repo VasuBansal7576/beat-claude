@@ -1,93 +1,53 @@
 # Scoring Rubric: Sales AE 006
 
-This challenge-specific rubric supplements the [general scoring methodology](../../SCORING.md).
+This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
 
-## Challenge-Specific Evaluation Points
+Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
 
-### Strategic Depth (30 points)
+## What Strong Submissions Show
 
-**What we're looking for:**
-- Root cause analysis beyond stated objections
-- Understanding of enterprise buying dynamics
-- Recognition of political/emotional factors
-- Multi-stakeholder strategy
+### 1. Real judgment
 
-**Red flags:**
-- Treats CFO objection at face value
-- Ignores CMO engagement problem
-- Generic MEDDIC/BANT framework application
-- Proposes discounting as primary lever
+The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
 
-### Specificity (25 points)
+### 2. Execution artifact
 
-**What we're looking for:**
-- Specific email/talk-track drafts
-- Day-by-day action plan with owners
-- Named negotiation tactics
-- Precise stakeholder messaging
+Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include an account plan, call plan, discovery map, mutual action plan, email sequence, CRM notes mock, or deal risk checklist.
 
-**Red flags:**
-- "Engage the CMO" without specific approach
-- Missing timeline
-- Vague "build value" recommendations
-- No contingency plan
+### 3. Source-labeled specificity
 
-### AI Fluency (20 points)
+Specificity only counts when it is grounded. Label every number as one of:
 
-**What we're looking for:**
-- Use of AI for research/prep
-- AI-assisted personalization
-- Understanding of AI in sales tools
-- Modern prospecting techniques
+- Observed
+- Estimated
+- Benchmarked
+- Assumed
 
-**Red flags:**
-- Purely traditional sales approach
-- No mention of research automation
-- Ignores digital engagement signals
+Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
 
-### Creativity (15 points)
+### 4. Proof quality
 
-**What we're looking for:**
-- Non-obvious approaches to CFO objection
-- Creative value-adds beyond discount
-- Novel urgency creation
-- Pattern recognition from other enterprise deals
+Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
 
-**Bonus points for:**
-- Innovative risk-sharing structures
-- Creative use of champion enablement
-- Multi-threading strategies we haven't seen
-- Specific competitive tactics for Marketo
+### 5. AI fluency with limits
 
-### Communication (10 points)
+Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
 
-**What we're looking for:**
-- Clear action sequence
-- Visual stakeholder mapping
-- Logical flow from diagnosis to action
-- Sales-ready language
+### 6. Failure handling
 
----
+Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
 
-## Hints for What Beats Claude
+## What Usually Loses
 
-Claude's baseline answer is structured and methodical:
-- Standard MEDDIC-style analysis
-- Reasonable stakeholder strategy
-- Typical negotiation tactics
+- A polished strategy document with no artifact.
+- Generic AI phrasing with no lived judgment.
+- Numbers with no source labels.
+- Claims without evidence.
+- A plan that ignores the brief's constraints.
+- A one-off demo that only works on a perfect input.
+- Recommendations that cannot be executed by the team described in the brief.
+- Hiding what stays human.
 
-**To beat it, you might:**
-- Show deeper political insight (why is CFO *really* blocking?)
-- Propose more creative risk mitigation structures
-- Include specific talk tracks and email drafts
-- Demonstrate multi-threading techniques
-- Show understanding of MarTech competitive landscape
-- Include champion enablement materials you'd create
-- Propose creative deal structures (not just payment terms)
+## How Review Works
 
-**Claude's answer tends to be:**
-- Correct sales methodology but textbook
-- Missing the "feel" of enterprise selling
-- Generic stakeholder strategies
-
-The bar to beat is "sales manager who read a book." To win, show us you've navigated stalled enterprise deals and know the specific moves that work.
+Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.

@@ -85,6 +85,21 @@ Your strategy should include:
 - Cannot go around Sarah (would damage champion relationship)
 - Limited to 2 executive-level meetings before close
 
+
+## Required Submission Packet
+
+Include these items with your submission:
+
+1. **Written answer**: the main response to the brief.
+2. **Operating artifact**: Sales operating artifact, such as an account plan, discovery map, call plan, mutual action plan, sequence, or CRM note sample.
+3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
+4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
+5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
+6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
+7. **What stays human**: explain which decisions or approvals should not be automated and why.
+
+A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
+
 ### Evaluation Criteria
 
 See [SCORING.md](../../SCORING.md) for how submissions are evaluated.
@@ -93,7 +108,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. **Maximum 4 pages.** Be specific—generic sales frameworks won't beat Claude. Estimated time: 1-2 hours.
+Submit as PDF or Markdown. **Maximum 4 pages.** Be specific. Generic sales frameworks won't beat Claude. Estimated time: 1-2 hours.
 
 ---
 

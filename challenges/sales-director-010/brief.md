@@ -4,7 +4,7 @@
 
 ### The Situation
 
-You're the new Sales Director (Player-Coach) at a marketing agency mid-transition from traditional services to tech-enabled services. You carry a personal quota AND lead a small sales team. You sell the full portfolio — agency services, SaaS product, and ad platform — depending on what fits the prospect.
+You're the new Sales Director (Player-Coach) at a marketing agency mid-transition from traditional services to tech-enabled services. You carry a personal quota AND lead a small sales team. You sell the full portfolio - agency services, SaaS product, and ad platform - depending on what fits the prospect.
 
 **The Company: Single Grain**
 - ~45-person digital marketing agency (SEO, Paid Media, Creative, CRO)
@@ -35,7 +35,7 @@ You're the new Sales Director (Player-Coach) at a marketing agency mid-transitio
 **What we expect from this hire from day one:**
 - Worship speed-to-lead. Minutes, not hours.
 - Build automation without being asked. If a workflow can be systematized, do it before anyone notices.
-- Think in systems. Not just "close deals" — build the machine that closes deals repeatedly.
+- Think in systems. Not just "close deals" - build the machine that closes deals repeatedly.
 - Implement outbound without worrying about comp mechanics. We'll figure out comp together. We need someone who moves first.
 - Send structured reporting proactively. Don't wait to be asked for pipeline updates or forecasts.
 - Install AI tooling. If there's an AI tool that makes the team faster, you find it, test it, and roll it out.
@@ -102,7 +102,7 @@ We're an AI-first company. Every department uses AI daily. If you're not fluent,
 
 1. **Your current AI stack for sales.** What tools do you use daily? Not just "I've tried ChatGPT." Show us: what specific sales workflows have you automated or augmented with AI? Give one detailed example with before/after results.
 
-2. **AI-powered prospecting play.** Design a specific outbound sequence for one of our three products (your choice: Single Grain agency services, ClickFlow, or Karrot). Show how you'd use AI at each step — from ICP research to list building to personalized outreach to follow-up. Be specific enough that we could execute it Monday.
+2. **AI-powered prospecting play.** Design a specific outbound sequence for one of our three products (your choice: Single Grain agency services, ClickFlow, or Karrot). Show how you'd use AI at each step - from ICP research to list building to personalized outreach to follow-up. Be specific enough that we could execute it Monday.
 
 3. **What sales leaders who ignore AI get wrong.** Give us your honest take on where AI replaces sales activities vs. where human judgment is irreplaceable. What does a Sales Director look like in 2028?
 
@@ -131,19 +131,28 @@ We're an AI-first company. Every department uses AI daily. If you're not fluent,
 
 ---
 
+
+## Required Submission Packet
+
+Include these items with your submission:
+
+1. **Written answer**: the main response to the brief.
+2. **Operating artifact**: Sales leadership operating artifact, such as a pipeline review template, forecast model, coaching cadence, hiring scorecard, territory model, or sales dashboard.
+3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
+4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
+5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
+6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
+7. **What stays human**: explain which decisions or approvals should not be automated and why.
+
+A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
+
 ## Evaluation Criteria
 
-| Criterion | Weight | What We're Looking For |
-|-----------|--------|----------------------|
-| Single Grain Specificity | 25% | Did you actually research us, or could this apply anywhere? |
-| Strategic Depth | 25% | Is your plan built on real mechanics, or just buzzwords? |
-| AI Fluency | 20% | Do you use AI as a force multiplier in sales? |
-| Sales Judgment | 20% | Do your priorities, sequences, and numbers make sense? |
-| Communication | 10% | Is this clear, concise, and well-structured? |
+We look for Single Grain specificity, strategic depth, AI fluency, sales judgment, evidence quality, and concise communication. The best answers show real sales operating experience, not generic revenue leadership language.
 
-See [SCORING.md](../../SCORING.md) for the general rubric. Challenge-specific scoring details are in [scoring_rubric.md](scoring_rubric.md).
+See [SCORING.md](../../SCORING.md) for the general rubric. Challenge-specific public guidance is in [scoring_rubric.md](scoring_rubric.md).
 
-**The Claude Comparison:** We will run Claude on the same Part 2 and Part 3 prompts. If your output is indistinguishable from Claude's — same generic structure, same vague recommendations, no human insight — that tells us something. The best candidates give answers that Claude literally cannot: real war stories, earned intuition, original frameworks from experience.
+**The Claude Comparison:** We will run Claude on the same Part 2 and Part 3 prompts. If your output is indistinguishable from Claude's - same generic structure, same vague recommendations, no human insight - that tells us something. The best candidates give answers that Claude literally cannot: real war stories, earned intuition, original frameworks from experience.
 
 ---
 
@@ -151,6 +160,6 @@ See [SCORING.md](../../SCORING.md) for the general rubric. Challenge-specific sc
 Upload your challenge answer (PDF or Markdown) along with your application.
 
 **Include with your submission:**
-- Your LinkedIn profile URL (we're looking for long tenure and a track record of promotions — ideally at 2+ companies, because that means multiple organizations valued you enough to invest in your growth)
+- Your LinkedIn profile URL (we're looking for long tenure and a track record of promotions - ideally at 2+ companies, because that means multiple organizations valued you enough to invest in your growth)
 
 **Questions?** Open an issue in this repo.

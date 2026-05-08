@@ -39,7 +39,7 @@ Your strategy should include:
 
 1. **Channel Prioritization & Budget Allocation**
    - Which 2-3 channels will you focus on and why? What will you explicitly NOT do?
-   - You have $100K to deploy over 90 days—how do you allocate it across channels, tools, and people?
+   - You have $100K to deploy over 90 days, how do you allocate it across channels, tools, and people?
 
 2. **Specific Campaigns**
    - Describe 3 specific campaigns or initiatives
@@ -57,6 +57,21 @@ Your strategy should include:
 - Brand awareness is zero outside of beta users
 - Founder can dedicate 50% of time to GTM
 
+
+## Required Submission Packet
+
+Include these items with your submission:
+
+1. **Written answer**: the main response to the brief.
+2. **Operating artifact**: GTM operating artifact, such as a budget model, campaign calendar, ICP list sample, messaging test, or funnel dashboard.
+3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
+4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
+5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
+6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
+7. **What stays human**: explain which decisions or approvals should not be automated and why.
+
+A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
+
 ### Evaluation Criteria
 
 See [SCORING.md](../../SCORING.md) for how submissions are evaluated.
@@ -65,7 +80,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization—if you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
+Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization. If you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
 
 ---
 

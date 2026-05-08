@@ -1,122 +1,140 @@
-# Scoring Methodology
+# Public Scoring Guide
+
+This is the public evaluation guide for Beat Claude, Single Grain's hiring challenge.
+
+It is intentionally high level. Detailed scoring notes, reviewer calibration, and follow-up curveballs are private so the challenge tests judgment instead of rubric matching.
 
 ## How We Evaluate
 
-All submissions go through **blind review**. The reviewer sees:
-- Claude's answer (labeled "Submission A")
-- Your answer (labeled "Submission B", "C", etc.)
+Submissions go through blind review against Claude's baseline answer for the same brief. Reviewers look for work that shows real operating judgment, not a polished prompt output.
 
-The reviewer doesn't know which is Claude's until after scoring.
+Strong submissions usually have:
 
-## Scoring Criteria (100 points)
+1. **Strategic judgment**: clear choices, tradeoffs, constraints, risks, and second-order effects.
+2. **Execution detail**: a concrete plan that could be used tomorrow by a real team.
+3. **Evidence quality**: proof that claims are grounded in work, data, customer insight, or a real artifact.
+4. **AI fluency**: smart use of AI with clear limits, human checkpoints, and failure handling.
+5. **Communication**: concise, structured, direct, and easy to review.
 
-### Strategic Depth — 30 points
+## What Beats Claude
 
-Does the answer demonstrate real strategic thinking?
+Claude can produce a competent strategy document. To beat it, you need to show something a generic model output usually cannot:
 
-| Score | Criteria |
-|-------|----------|
-| 25-30 | Addresses constraints explicitly, sound reasoning, clear assumptions, considers second-order effects |
-| 15-24 | Good reasoning but misses some constraints or makes unstated assumptions |
-| 5-14 | Surface-level strategy, obvious recommendations, limited reasoning |
-| 0-4 | Generic advice that could apply to any company |
+- An operating artifact we can inspect.
+- Specific judgment based on real constraints.
+- Evidence that you tested, built, modeled, or validated something.
+- A clear view of what breaks, what stays human, and why.
+- Domain taste, creative pattern recognition, or practical experience.
 
-### Specificity — 25 points
+Ties do not advance. If your work is only as good as Claude's baseline, we keep looking.
 
-Could you execute this tomorrow?
+## Required Evidence Standards
 
-| Score | Criteria |
-|-------|----------|
-| 20-25 | Concrete numbers, specific timelines, named tools/channels, actionable steps |
-| 12-19 | Some specifics but gaps in execution detail |
-| 5-11 | Vague recommendations, missing timelines or budgets |
-| 0-4 | Purely conceptual, no actionable detail |
+Every submission should include an evidence log. Label your proof with the highest tier you can support:
 
-### AI Fluency — 20 points
+| Tier | Evidence type | What it means |
+|------|---------------|---------------|
+| 0 | Claims only | You asserted it, but did not show proof. |
+| 1 | Screenshots | Static proof of a screen, doc, result, or workflow. |
+| 2 | Demo artifact | A sheet, repo, Loom, workflow, prototype, dashboard, or mock that can be reviewed. |
+| 3 | Logs or source records | Exports, raw data, source records, commits, prompt traces, CRM notes, analytics pulls, or similar. |
+| 4 | Before and after data | Measured change with a clear baseline and method. |
+| 5 | Independent verification | A user, customer, system, reviewer, or production process confirms the result. |
 
-Does the answer show understanding of AI's role in modern marketing?
+Tier 0 to 2 can be useful context. Tier 4 to 5 is what usually wins.
 
-| Score | Criteria |
-|-------|----------|
-| 16-20 | Leverages AI capabilities intelligently, forward-thinking about automation, understands limitations |
-| 10-15 | Mentions AI appropriately but doesn't deeply integrate it |
-| 4-9 | Treats AI as an afterthought or checkbox |
-| 0-3 | Ignores AI entirely or shows outdated thinking |
+## Number Source Labels
 
-### Creativity — 15 points
+Every number in your submission must be labeled by source type:
 
-Does the answer contain non-obvious insights?
+- **Observed**: measured directly from a real system, dataset, user, or experiment.
+- **Estimated**: your own estimate based on stated reasoning.
+- **Benchmarked**: pulled from a named external benchmark, public source, or comparable case.
+- **Assumed**: a placeholder assumption used to make the plan concrete.
 
-| Score | Criteria |
-|-------|----------|
-| 12-15 | Unique angles, pattern recognition from other industries, contrarian-but-sound ideas |
-| 7-11 | Some fresh thinking but mostly conventional |
-| 3-6 | Entirely conventional playbook |
-| 0-2 | Copy-paste thinking, no original insight |
+Examples:
 
-### Communication — 10 points
+- "[Observed] 48 leads entered the sheet last week."
+- "[Estimated] This should take 6 hours to build because two APIs are already connected."
+- "[Benchmarked] 2 percent to 5 percent reply rate based on prior cold outbound benchmarks."
+- "[Assumed] $100/hour blended cost for internal time."
 
-Is it clear, concise, and executive-ready?
+Unlabeled numbers hurt the review. Fake precision hurts more than honest assumptions.
 
-| Score | Criteria |
-|-------|----------|
-| 8-10 | Scannable, logical flow, appropriate detail level, professional formatting |
-| 5-7 | Readable but some organization issues |
-| 2-4 | Difficult to follow, buried lead, poor structure |
-| 0-1 | Confusing, unprofessional, or rambling |
+## Operating Artifact Requirement
 
-## Winning Threshold
+A written answer alone is not enough. Include at least one operating artifact that shows how you work.
 
-To "beat Claude," your score must be **higher than Claude's score** on the same challenge.
+Examples:
 
-If scores are within 5 points (tie territory), we may:
-- Request a follow-up response to a curveball question
-- Schedule a brief call to discuss your thinking
-- Review both answers with a second reviewer
+- A spreadsheet model with formulas and assumptions.
+- A repo, script, prompt chain, or automation workflow.
+- A Loom walkthrough of a working prototype.
+- A dashboard with source data.
+- A Slack workflow, CRM view, hiring scorecard, process cadence, or calendar plan.
+- A before and after comparison with raw inputs and outputs.
 
-## What We're Really Looking For
+The artifact does not need to be perfect. It needs to be real enough for a reviewer to inspect your judgment.
 
-The scoring rubric is a tool, not a formula. What actually matters:
+## AI Usage Disclosure
 
-1. **Would we trust this person to own a client engagement?**
-2. **Did they see something Claude missed?**
-3. **Do they make AI look basic, or do they sound like AI?**
+Use AI if it helps. We expect it. Tell us how you used it.
 
----
+Include:
 
-## Review Process
+- Tools used.
+- What AI helped with.
+- What you personally decided.
+- What you checked or changed.
+- Any known weak spots in the output.
 
-1. **Anonymization**: Names removed, submissions labeled A/B/C
-2. **Scoring**: Reviewer scores each on the 5 criteria
-3. **Comparison**: Scores tallied, Claude's revealed
-4. **Decision**: Beat Claude → advance to interview
+Undisclosed AI use is not the issue. Passing off generic AI work as proven operating judgment is the issue.
 
-## Format & Length
+## Curveball and Live Walkthrough
 
-All challenges have a **4-page maximum** (diagrams and wireframes don't count toward the limit). This is clearly stated in each challenge brief.
+After submission, strong candidates may receive a private follow-up curveball or live walkthrough request. This can include:
 
-**Reviewers will not penalize submissions for length** as long as they stay within the stated limit. A focused 2-page submission can absolutely beat a 4-page one—we score on quality, not volume.
+- A changed constraint.
+- A messy data sample.
+- A request to explain the artifact live.
+- A request to show source records, logs, or assumptions.
+- A failure case that tests whether the plan still works.
 
-Submissions that exceed 4 pages will still be reviewed, but excessive length may affect Communication scores if it signals poor prioritization.
+This step is part of the review process. It exists to separate real operators from prompt-optimized answers.
+
+## Failure Modes That Lose
+
+Submissions are unlikely to advance if they:
+
+- Optimize for the public rubric instead of solving the business problem.
+- Use polished language without an operating artifact.
+- Include numbers with no source labels.
+- Invent proof, metrics, customers, users, or system outputs.
+- Ignore constraints in the brief.
+- Hide what stays human or where AI fails.
+- Submit a one-off AI demo that only works on the happy path.
+- Sound like a generic AI answer with light editing.
+
+## Format and Length
+
+Most challenges have a 4-page maximum for the written answer. Diagrams, artifact links, code, sheets, and short Loom demos do not count toward the written page limit unless the brief says otherwise.
+
+Short and sharp is better than long and vague.
 
 ## Frequently Asked Questions
 
 **Q: What if I tie with Claude?**
 
-Ties don't advance automatically. We may ask a follow-up question or schedule a quick call.
+Ties do not advance automatically. We may ask a curveball, request source proof, or schedule a walkthrough.
+
+**Q: Can I use AI?**
+
+Yes. Use whatever tools help you produce better work. Disclose how you used them.
 
 **Q: How long until I hear back?**
 
-Within 2 weeks. We review submissions in batches.
+Usually within 2 weeks. We review submissions in batches.
 
 **Q: Can I resubmit?**
 
-One submission per challenge. If you want another shot, wait for a new challenge.
-
-**Q: Who reviews submissions?**
-
-Single Grain team members with domain expertise in the challenge area.
-
-**Q: How long should this take?**
-
-Most challenges are designed to take 1-2 hours. If you're spending significantly more, you may be over-thinking it. We're testing judgment and prioritization, not endurance.
+One submission per challenge unless we invite a follow-up.

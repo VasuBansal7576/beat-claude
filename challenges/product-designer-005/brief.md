@@ -38,7 +38,7 @@ You're joining a B2B SaaS company as a senior product designer. The company's on
 
 **User Research Highlights**
 - "I just wanted to try it myself first before inviting my team"
-- "The integrations step felt overwhelming—too many options"
+- "The integrations step felt overwhelming, too many options"
 - "I didn't understand why I needed to create a project to see the tool"
 - "The tutorial was actually helpful but I almost didn't get there"
 
@@ -72,6 +72,21 @@ Your redesign should include:
 ### Format
 
 Submit as PDF, Markdown, or Figma link. **Maximum 4 pages** (wireframes don't count toward limit). Can use Figma, Sketch, or even hand-drawn + photos. Estimated time: 1-2 hours.
+
+
+## Required Submission Packet
+
+Include these items with your submission:
+
+1. **Written answer**: the main response to the brief.
+2. **Operating artifact**: Design operating artifact, such as a prototype, wireflow, annotated Figma, usability notes, conversion diagnosis, or decision log.
+3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
+4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
+5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
+6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
+7. **What stays human**: explain which decisions or approvals should not be automated and why.
+
+A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
 
 ### Evaluation Criteria
 

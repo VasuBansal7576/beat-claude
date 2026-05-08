@@ -1,93 +1,53 @@
 # Scoring Rubric: Product Designer 005
 
-This challenge-specific rubric supplements the [general scoring methodology](../../SCORING.md).
+This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
 
-## Challenge-Specific Evaluation Points
+Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
 
-### Strategic Depth (30 points)
+## What Strong Submissions Show
 
-**What we're looking for:**
-- Root cause analysis beyond surface symptoms
-- Understanding of B2B buying psychology
-- Recognition of viral loop importance
-- Trade-off awareness (speed vs. data collection)
+### 1. Real judgment
 
-**Red flags:**
-- "Just remove steps" without considering business impact
-- Ignores team invite virality metric
-- No consideration of different user types
-- Proposes solutions without understanding cause
+The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
 
-### Specificity (25 points)
+### 2. Execution artifact
 
-**What we're looking for:**
-- Actual wireframes or detailed descriptions
-- Specific copy for key moments
-- Clear step-by-step flow
-- Measurable success criteria
+Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include a prototype, wireflow, annotated Figma, usability test notes, conversion diagnosis, or design decision log.
 
-**Red flags:**
-- "Improve the onboarding" without specifics
-- Wireframes that are just boxes
-- Missing interaction details
-- Vague metrics like "improve engagement"
+### 3. Source-labeled specificity
 
-### AI Fluency (20 points)
+Specificity only counts when it is grounded. Label every number as one of:
 
-**What we're looking for:**
-- AI-powered personalization ideas
-- Smart template recommendations
-- Conversational onboarding concepts
-- Understanding of AI-assisted design tools
+- Observed
+- Estimated
+- Benchmarked
+- Assumed
 
-**Red flags:**
-- Purely manual/static flows
-- No mention of personalization
-- Ignores modern onboarding patterns
+Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
 
-### Creativity (15 points)
+### 4. Proof quality
 
-**What we're looking for:**
-- Non-obvious solutions to the invite problem
-- Creative approaches to showing value fast
-- Novel progressive disclosure patterns
-- Pattern recognition from consumer apps applied to B2B
+Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
 
-**Bonus points for:**
-- Gamification elements
-- Innovative use of sample content
-- Creative recovery flows for abandoned users
-- Ideas we haven't seen before
+### 5. AI fluency with limits
 
-### Communication (10 points)
+Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
 
-**What we're looking for:**
-- Clear before/after comparison
-- Visual wireframes (any fidelity)
-- Logical flow from problem to solution
-- Appropriate detail for design work
+### 6. Failure handling
 
----
+Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
 
-## Hints for What Beats Claude
+## What Usually Loses
 
-Claude's baseline answer is solid UX thinking but predictable:
-- Standard "remove friction" approach
-- Template-based onboarding
-- Progressive disclosure pattern
+- A polished strategy document with no artifact.
+- Generic AI phrasing with no lived judgment.
+- Numbers with no source labels.
+- Claims without evidence.
+- A plan that ignores the brief's constraints.
+- A one-off demo that only works on a perfect input.
+- Recommendations that cannot be executed by the team described in the brief.
+- Hiding what stays human.
 
-**To beat it, you might:**
-- Propose a more radical restructuring
-- Show deeper understanding of agency workflow
-- Include actual UI designs, not just wireframes
-- Demonstrate specific copy/microcopy expertise
-- Propose A/B testing strategy
-- Show how to measure "aha moment" precisely
-- Include edge cases (mobile, different roles, different agency sizes)
+## How Review Works
 
-**Claude's answer tends to be:**
-- Correct but could be for any B2B SaaS
-- Missing agency-specific insights
-- Generic wireframes
-
-The bar to beat is "good UX generalist." To win, show us you understand agencies and have redesigned onboarding flows before.
+Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.

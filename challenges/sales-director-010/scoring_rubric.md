@@ -1,107 +1,53 @@
 # Scoring Rubric: Sales Director 010
 
-This challenge-specific rubric supplements the [general scoring methodology](../../SCORING.md).
+This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
 
-## Challenge-Specific Evaluation Points
+Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
 
-### Single Grain Specificity (25 points)
+## What Strong Submissions Show
 
-**What we're looking for:**
-- Evidence of real research (listened to podcasts, studied positioning, knows competitors)
-- Specific references to ClickFlow, Karrot, and agency product lines
-- Understanding of the agency-to-TES transition challenge
-- Named competitors, market dynamics, or pricing context
+### 1. Real judgment
 
-**Red flags:**
-- Could apply to any agency or SaaS company
-- No mention of Eric Siu, Leveling Up, or Marketing School
-- Generic "digital marketing agency" framing
-- No understanding of TES model
+The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
 
-### Strategic Depth (25 points)
+### 2. Execution artifact
 
-**What we're looking for:**
-- 90-day plan with real mechanics, not just phases
-- Distinct sales motions for high-value agency retainers vs. SaaS (ClickFlow/Karrot)
-- Realistic ramp assumptions with specific numbers
-- Cross-sell strategy between product lines
-- Team assessment framework (coach vs. replace decisions)
+Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include a sales operating model, pipeline review template, coaching cadence, territory model, hiring scorecard, or forecast dashboard.
 
-**Red flags:**
-- Same sales process for agency and SaaS
-- No pipeline targets or outbound volume numbers
-- "Build relationships" without specific tactics
-- Generic MEDDIC/BANT framework copy-paste
-- No mention of how player-coach time splits work
+### 3. Source-labeled specificity
 
-### AI Fluency (20 points)
+Specificity only counts when it is grounded. Label every number as one of:
 
-**What we're looking for:**
-- Real AI workflows with before/after metrics
-- Specific tools beyond "ChatGPT for emails"
-- AI-powered prospecting sequence detailed enough to execute
-- Thoughtful 2028 vision on AI in sales leadership
-- Understanding of where AI fails in sales
+- Observed
+- Estimated
+- Benchmarked
+- Assumed
 
-**Red flags:**
-- "I use ChatGPT" without specific workflows
-- Anti-AI stance at an AI-first company
-- Generic AI tool list without integration detail
-- Prospecting sequence that's just "use AI to personalize"
+Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
 
-### Sales Judgment (20 points)
+### 4. Proof quality
 
-**What we're looking for:**
-- Correct prioritization (close existing pipeline before building new)
-- Understanding of enterprise vs. SaaS sales cycles
-- Realistic quota ramp expectations
-- Smart team assessment (not just "coach everyone")
-- Recognition of the tension between carrying quota and managing
+Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
 
-**Red flags:**
-- Day 1 plan starts with "hire more reps"
-- No urgency around existing pipeline
-- Treats all three products with identical sales process
-- Unrealistic close timelines
-- No contingency for underperforming reps
+### 5. AI fluency with limits
 
-### Communication (10 points)
+Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
 
-**What we're looking for:**
-- Scannable structure with tables, headers, and clear sections
-- Respects the page limits (8 pages total)
-- Direct and specific language
-- Numbers and metrics, not just narrative
+### 6. Failure handling
 
-**Red flags:**
-- Wall-of-text essay format
-- Exceeds page limits
-- Buzzword-heavy prose without substance
-- No visual organization (tables, lists, frameworks)
+Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
 
----
+## What Usually Loses
 
-## Hints for What Beats Claude
+- A polished strategy document with no artifact.
+- Generic AI phrasing with no lived judgment.
+- Numbers with no source labels.
+- Claims without evidence.
+- A plan that ignores the brief's constraints.
+- A one-off demo that only works on a perfect input.
+- Recommendations that cannot be executed by the team described in the brief.
+- Hiding what stays human.
 
-Claude's baseline answer is structured and methodical:
-- Clean 90-day framework with logical phases
-- Reasonable ICP definitions for each product
-- Standard outbound strategy and metrics
-- Generic but competent AI fluency section
+## How Review Works
 
-**To beat it, you might:**
-- Share a real war story of building a sales team at a hybrid services/product company
-- Show a specific outbound sequence for ClickFlow or Karrot (not just "personalized outreach")
-- Include actual email copy or talk tracks you'd use
-- Demonstrate you've listened to Eric's content and understand his priorities
-- Propose a specific cross-sell motion with triggers and timing
-- Show how you've personally used AI to close more deals (with numbers)
-- Address the hardest part: how you hit your personal quota while also ramping a team
-
-**Claude's answer tends to be:**
-- Structurally sound but generic enough to apply to any company
-- Missing the "feel" of someone who's actually built a sales org
-- Correct frameworks without the earned intuition of what actually works
-- Strong on theory, weak on specific execution details
-
-The bar to beat is "MBA who studied sales management." To win, show us you've actually carried a bag while leading a team and know the specific tradeoffs that requires.
+Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.

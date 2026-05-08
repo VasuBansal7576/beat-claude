@@ -62,6 +62,21 @@ Your design should include:
 - Must support multi-tenant architecture (500+ customers)
 - Compliance: SOC 2, GDPR, CCPA
 
+
+## Required Submission Packet
+
+Include these items with your submission:
+
+1. **Written answer**: the main response to the brief.
+2. **Operating artifact**: Engineering operating artifact, such as a repo, runnable script, architecture diagram, test plan, benchmark, trace, or log export.
+3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
+4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
+5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
+6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
+7. **What stays human**: explain which decisions or approvals should not be automated and why.
+
+A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
+
 ### Evaluation Criteria
 
 See [SCORING.md](../../SCORING.md) for how submissions are evaluated.
