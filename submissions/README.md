@@ -25,7 +25,7 @@
 ## Questions?
 
 - Open an issue in this repo
-- Email `beat-claude@singlegrain.com`
+- Apply through the [Single Grain careers page](https://www.singlegrain.com/careers/) and include any role-specific context with your application
 
 ## Evaluation
 
