@@ -1,0 +1,27 @@
+# SUBMISSION_MANIFEST.txt
+
+Deterministic SHA-256 manifest for the Engineer-004 proof packet.
+The manifest intentionally excludes its own hash; rerun the checker after any artifact change.
+
+| Path | Bytes | SHA-256 |
+|---|---:|---|
+| `.gitignore` | 48 | `74756503e09b3fc51374117e07de92deeecf33c65cec1ff50e3142b75153ada6` |
+| `README.md` | 7198 | `237572ef5e819a96b69832bf78c452297b8cbdbc1bf35a4c7639302afed22da8` |
+| `SUBMISSION.md` | 12288 | `ad2134035ccd7b15e308c80702d404571ca3b546b3226206b1fc148c7d631c04` |
+| `PROOF_MATRIX.md` | 3531 | `c2204c75d2282dc3aecbc05e0e4a05dc27f76547039fbb3d3a81644ea370bb94` |
+| `EXTERNAL_VALIDATION_BLOCKERS.md` | 1822 | `c7770eaac6a6a6819f30de48fef9b18eb68ab9ab7cfad334c896075df3aac993` |
+| `POSITION_3.md` | 1524 | `17e60c8b27eb01841559553ed573b4129e979f1cd6f7e36294e9502dc835021a` |
+| `SDK_EVIDENCE_CHECKLIST.md` | 1351 | `630698bd133bdb3a15b1a078b4c479578fdb714dbc704f7f550c7c571699525a` |
+| `benchmark_results.txt` | 1910 | `e15a2e2da3eb9ba078ec3beec1d3f3b50279ee67e53aab610aedace702edb25f` |
+| `cost_model.py` | 5248 | `7f7bdcb9868f8e50a76a415dbb5b8b1136e2c998b64507bfa3ff09c17115635f` |
+| `cost_model_results.txt` | 2492 | `51555c2262f8a53dedd559d6e1fd8ccefcea977555c7352ab44a54311ef39dec` |
+| `docker-compose.yml` | 3648 | `8d01bf12982de966d093b78fd822d85d1b2a4bfc402187a8c0e32ce9ac6e832a` |
+| `AWS_LOAD_TEST_PLAN.md` | 3272 | `1715cfd92f16fcca505d49bd5f22b14ac778d50b86080b18069a078f1773befb` |
+| `load/ingest_spike_k6.js` | 1630 | `75ee8fa76069c2165cb634e4a7bcf547eab98f3e4bd3a3127f275829140c1746` |
+| `pipeline.py` | 30541 | `5bd7683ebc8aae8d2209887586dee3c3a6d0d12e43e32c0243036b7b2322c75d` |
+| `schema.sql` | 609 | `33b9aed31f8631bb636c0f944feb0335519c39c3d2622af5d01ef91815af5bed` |
+| `sdk_contract.py` | 5546 | `f690ef45972d8fa15d68b9613932ea9c51ac4372ef341c421968ac8118a62a57` |
+| `scripts/build_submission_bundle.py` | 2995 | `cc2ba61ddfd90e0070b69f5099a26935cb27b2b632508651b79bd5abb41a4d9d` |
+| `scripts/check_external_readiness.py` | 5962 | `452dd7e0e56daa65a81c793c22e9418eaada087e8f57b09369713d9f25f770a4` |
+| `scripts/run_external_validation.py` | 5429 | `ac74a0a325cf233b994e9270f3166aed83bbf8f90bf1aaddfbc6767358c20427` |
+| `scripts/verify_submission.py` | 7280 | `fe0e0065f0197e7c00f2735141685fbe3be2e7f7c2b6fb739157bb1ec31f572b` |

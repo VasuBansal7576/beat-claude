@@ -1,0 +1,123 @@
+services:
+  redpanda-0:
+    image: docker.redpanda.com/redpandadata/redpanda:v24.3.6
+    container_name: beat-claude-redpanda-0
+    command:
+      - redpanda
+      - start
+      - --node-id=0
+      - --smp=1
+      - --memory=768M
+      - --reserve-memory=0M
+      - --overprovisioned
+      - --check=false
+      - --kafka-addr=internal://0.0.0.0:9092,external://0.0.0.0:19092
+      - --advertise-kafka-addr=internal://redpanda-0:9092,external://localhost:19092
+      - --pandaproxy-addr=internal://0.0.0.0:8082,external://0.0.0.0:18082
+      - --advertise-pandaproxy-addr=internal://redpanda-0:8082,external://localhost:18082
+      - --rpc-addr=0.0.0.0:33145
+      - --advertise-rpc-addr=redpanda-0:33145
+      - --seeds=redpanda-0:33145
+    ports:
+      - "19092:19092"
+      - "18082:18082"
+      - "19644:9644"
+    volumes:
+      - redpanda-0:/var/lib/redpanda/data
+    healthcheck:
+      test: ["CMD", "rpk", "cluster", "health"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  redpanda-1:
+    image: docker.redpanda.com/redpandadata/redpanda:v24.3.6
+    container_name: beat-claude-redpanda-1
+    depends_on:
+      redpanda-0:
+        condition: service_started
+    command:
+      - redpanda
+      - start
+      - --node-id=1
+      - --smp=1
+      - --memory=768M
+      - --reserve-memory=0M
+      - --overprovisioned
+      - --check=false
+      - --kafka-addr=internal://0.0.0.0:9092,external://0.0.0.0:29092
+      - --advertise-kafka-addr=internal://redpanda-1:9092,external://localhost:29092
+      - --pandaproxy-addr=internal://0.0.0.0:8082,external://0.0.0.0:28082
+      - --advertise-pandaproxy-addr=internal://redpanda-1:8082,external://localhost:28082
+      - --rpc-addr=0.0.0.0:33145
+      - --advertise-rpc-addr=redpanda-1:33145
+      - --seeds=redpanda-0:33145
+    ports:
+      - "29092:29092"
+      - "28082:28082"
+      - "29644:9644"
+    volumes:
+      - redpanda-1:/var/lib/redpanda/data
+    healthcheck:
+      test: ["CMD", "rpk", "cluster", "health"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  redpanda-2:
+    image: docker.redpanda.com/redpandadata/redpanda:v24.3.6
+    container_name: beat-claude-redpanda-2
+    depends_on:
+      redpanda-0:
+        condition: service_started
+    command:
+      - redpanda
+      - start
+      - --node-id=2
+      - --smp=1
+      - --memory=768M
+      - --reserve-memory=0M
+      - --overprovisioned
+      - --check=false
+      - --kafka-addr=internal://0.0.0.0:9092,external://0.0.0.0:39092
+      - --advertise-kafka-addr=internal://redpanda-2:9092,external://localhost:39092
+      - --pandaproxy-addr=internal://0.0.0.0:8082,external://0.0.0.0:38082
+      - --advertise-pandaproxy-addr=internal://redpanda-2:8082,external://localhost:38082
+      - --rpc-addr=0.0.0.0:33145
+      - --advertise-rpc-addr=redpanda-2:33145
+      - --seeds=redpanda-0:33145
+    ports:
+      - "39092:39092"
+      - "38082:38082"
+      - "39644:9644"
+    volumes:
+      - redpanda-2:/var/lib/redpanda/data
+    healthcheck:
+      test: ["CMD", "rpk", "cluster", "health"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.12-alpine
+    container_name: beat-claude-clickhouse
+    environment:
+      CLICKHOUSE_USER: default
+      CLICKHOUSE_PASSWORD: beatclaude
+      CLICKHOUSE_DB: analytics
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    volumes:
+      - clickhouse:/var/lib/clickhouse
+    healthcheck:
+      test: ["CMD", "clickhouse-client", "--password", "beatclaude", "--query", "SELECT 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  redpanda-0:
+  redpanda-1:
+  redpanda-2:
+  clickhouse:

@@ -1,0 +1,56 @@
+# benchmark_results.txt
+
+- [Observed] generated_unix_ms = 1781110744345
+- [Observed] run_id = bench_acccbedf9e
+- [Observed] redpanda_brokers_configured = 3
+- [Observed] clickhouse_writers = 1
+- [Assumed] brief_current_events_per_day = 50000000
+- [Estimated] ten_x_spike_events_per_second = 5790
+- [Observed] sdk_contract_gate_required_before_dedup = 1
+- [Observed] real_sdk_contract_verified = 0
+
+## Hot Path
+
+- [Observed] e2e_latency_p50_ms = 3975
+- [Observed] e2e_latency_p99_ms = 3993
+- [Observed] ten_x_spike_events_sent = 5790
+- [Observed] ten_x_spike_events_stored_raw = 5790
+- [Observed] ten_x_spike_events_stored_distinct = 5790
+- [Observed] valid_events_consumed_by_python_writer = 6801
+
+## Query Dedup Model
+
+- [Observed] intentional_retry_events_sent_raw = 1010
+- [Observed] intentional_retry_events_distinct_event_id = 1000
+- [Observed] duplicate_rate_percent_with_intentional_retries = 0.990
+- [Observed] dedup_query_shape = count_distinct_event_id_at_query_time
+
+## PII Guardrail
+
+- [Observed] pii_probe_events_sent = 1
+- [Observed] pii_probe_email_redacted = 1
+- [Observed] pii_probe_phone_redacted = 1
+- [Observed] pii_probe_ip_redacted = 1
+- [Observed] pii_probe_safe_property_preserved = 1
+
+## Segment Query
+
+- [Observed] segment_seed_days = 7
+- [Observed] segment_seed_users = 50000
+- [Observed] segment_seed_events_per_user = 3
+- [Observed] segment_query_predicate_requires_user_hash_not_null = 1
+- [Observed] segment_query_matching_users = 50000
+- [Observed] cold_cache_segment_query_samples = 20
+- [Observed] cold_cache_segment_query_p99_ms = 25.766
+
+## DLQ
+
+- [Observed] poison_events_sent = 5
+- [Observed] poison_events_consumed_by_writer = 5
+- [Observed] poison_events_seen_on_dlq_topic = 5
+
+## Non-Hot-Path Commitments
+
+- [Assumed] s3_archive_consumer_group_blocks_hot_path = 0
+- [Assumed] s3_archive_window_minutes = 5
+- [Assumed] warehouse_export_consumer_group_blocks_hot_path = 0
