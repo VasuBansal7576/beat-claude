@@ -1,5 +1,7 @@
 # Engineer-004 Submission: Real-Time Analytics Pipeline
 
+Operating artifact: https://github.com/VasuBansal7576/beat-claude
+
 ## Decision
 
 I would replace the current batchy analytics path with this hot path:

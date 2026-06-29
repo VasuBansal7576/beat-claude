@@ -7,7 +7,7 @@ The manifest intentionally excludes its own hash; rerun the checker after any ar
 |---|---:|---|
 | `.gitignore` | 48 | `74756503e09b3fc51374117e07de92deeecf33c65cec1ff50e3142b75153ada6` |
 | `README.md` | 7198 | `237572ef5e819a96b69832bf78c452297b8cbdbc1bf35a4c7639302afed22da8` |
-| `SUBMISSION.md` | 12288 | `ad2134035ccd7b15e308c80702d404571ca3b546b3226206b1fc148c7d631c04` |
+| `SUBMISSION.md` | 12355 | `f0472dd0113a299fccf260e2ee19e4b46387c3f416f291600b5a2212ac58c105` |
 | `PROOF_MATRIX.md` | 3531 | `c2204c75d2282dc3aecbc05e0e4a05dc27f76547039fbb3d3a81644ea370bb94` |
 | `EXTERNAL_VALIDATION_BLOCKERS.md` | 1822 | `c7770eaac6a6a6819f30de48fef9b18eb68ab9ab7cfad334c896075df3aac993` |
 | `POSITION_3.md` | 1524 | `17e60c8b27eb01841559553ed573b4129e979f1cd6f7e36294e9502dc835021a` |
